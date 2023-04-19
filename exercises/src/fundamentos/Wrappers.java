@@ -30,6 +30,6 @@ public class Wrappers {
 		
 		System.out.println(b.hashCode());
 		System.out.println(string);
-		System.out.println(bool);
+		System.out.println(bool);		
 	}
 }
