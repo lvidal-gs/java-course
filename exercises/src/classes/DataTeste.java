@@ -15,6 +15,12 @@ public class DataTeste {
 //		System.out.printf("%d/%d/%d", d1.dia, d1.mes, d1.ano);
 		d1.imprimeData();
 		d2.imprimeData();
+		
+		Data d3 = new Data();
+		d3.imprimeData();
+		
+		Data d4 = new Data(29, 10, 1966);
+		d4.imprimeData();
 	}
 	
 }
